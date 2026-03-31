@@ -1,0 +1,122 @@
+{
+  "profile": {
+    "name": "Samuel Arcelio Tapias Salcedo",
+    "title": "Ingeniero de Sistemas",
+    "location": "Madrid, España",
+    "summary": "Ingeniero de Sistemas de la Universidad del Norte, con nivel avanzado de inglés, con experiencia en herramientas DevOps para la ejecución de proyectos de transformación digital. Conocimientos de diseño, desarrollo y despliegue de bases de datos. Cuento con VISA vigente para trabajar en España.",
+    "contact": {
+      "email": "stscfc50@gmail.com",
+      "phone": "+34 607078970",
+      "linkedin": "linkedin.com/in/samuel-arcelio-tapias-salcedo-927167145",
+      "portfolio": ""
+    }
+  },
+  "experience": [
+    {
+      "id": "exp_gtc",
+      "role": "Ingeniero de Soluciones III",
+      "company": "GTC Corporation",
+      "date": "Junio 2024 - Agosto 2025",
+      "description": "Gestión completa de la documentación y despliegue de nuevas funcionalidades para aplicaciones web haciendo uso de la metodología SCRUM. Entrega de microservicios a proveedores.",
+      "stack": []
+    },
+    {
+      "id": "exp_ey",
+      "role": "Technology Consulting",
+      "company": "Ernst & Young S.A.S.",
+      "date": "Julio 2022 - Febrero 2024",
+      "description": "Gestión completa de la documentación, los recursos y el desarrollo de pipelines para el despliegue automático de infraestructura haciendo uso de la metodología SCRUM.",
+      "stack": [
+        "Terraform",
+        "Azure DevOps",
+        "Azure Portal"
+      ]
+    },
+    {
+      "id": "exp_venture",
+      "role": "Desarrollador Web",
+      "company": "Venture Global Solutions",
+      "date": "Abril 2024 - Mayo 2024",
+      "description": "Desarrollo fullstack de aplicaciones Web con Wordpress.",
+      "stack": [
+        "Wordpress"
+      ]
+    },
+    {
+      "id": "exp_ramajudicial",
+      "role": "Coordinador Mesa de Ayuda",
+      "company": "Rama Judicial Colombiana",
+      "date": "Marzo 2022 - Junio 2022",
+      "description": "Coordinación y gestión de solicitudes de soporte IT para la entidad haciendo uso de HelpDesk.",
+      "stack": [
+        "HelpDesk"
+      ]
+    },
+    {
+      "id": "exp_giitic",
+      "role": "Desarrollador JAVA Junior",
+      "company": "Giitic S.A.",
+      "date": "Septiembre 2021 - Enero 2022",
+      "description": "Desarrollo fullstack de aplicaciones Web y móvil con JAVA.",
+      "stack": [
+        "Java"
+      ]
+    }
+  ],
+  "skills": {
+    "programming": {
+      "advanced": [],
+      "intermediate": [
+        "C#",
+        "Java",
+        "Python"
+      ],
+      "basic": []
+    },
+    "frameworksAndTools": {
+      "advanced": [],
+      "intermediate": [
+        "Unreal",
+        "Unity",
+        "Azure DevOps",
+        "Azure Portal",
+        "Terraform"
+      ],
+      "basic": []
+    },
+    "databases": {
+      "intermediate": [
+        "SQL"
+      ]
+    },
+    "languages": {
+      "native": [
+        "Español"
+      ],
+      "advanced": [
+        "Inglés (C2)"
+      ]
+    }
+  },
+  "education": [
+    {
+      "id": "edu_uem",
+      "degree": "Máster Universitario en Diseño de Videojuegos",
+      "school": "Universidad Europea de Madrid",
+      "date": "Actualidad"
+    },
+    {
+      "id": "edu_uninorte",
+      "degree": "Ingeniero de Sistemas",
+      "school": "Universidad del Norte",
+      "date": "2021"
+    },
+    {
+      "id": "edu_mercedes",
+      "degree": "Bachiller Académico",
+      "school": "Colegio Nuestra Señora de Las Mercedes",
+      "date": "2013"
+    }
+  ],
+  "certs": []
+}
