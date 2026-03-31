@@ -40,9 +40,9 @@ return [
     'about_stack_label'    => 'Tech stack',
     'about_stack_prefix'   => 'I build with',
     'about_github_btn'     => 'View my GitHub',
-    'about_img_piano_alt'  => 'Moisés playing piano',
-    'about_img_cat_pc_alt' => 'Cat with PC',
-    'about_img_cat_alt'    => 'Pet cat',
+    'about_img_1_alt'      => 'Image Alt 1',
+    'about_img_2_alt'      => 'Image Alt 2',
+    'about_img_3_alt'      => 'Image Alt 3',
 
     // ── Portfolio ────────────────────────────────────────────────────────────
     'portfolio_label'          => 'Portfolio',

@@ -16,52 +16,16 @@ class ProjectSeeder extends Seeder
     {
         $projectsData = [
             [
-                'category' => ['PHP'],
-                'title' => 'SparkMVC - PHP MVC Framework',
-                'image' => null,
-                'github' =>  'https://github.com/MoisesCorcho/SparkMVC'
+                'category' => ['C#', 'Unity'],
+                'title' => 'Mar y cielo (Game Jam Cultura Abierta 2025)',
+                'image' => 'img/projects/mar_y_cielo.jpg',
+                'github' => 'https://github.com/SamFabra570/MarYCielo'
             ],
             [
-                'category' => ['PHP', 'Laravel', 'PHPUnit', 'Bootstrap'],
-                'title' => 'Automobile Winner Landing Page & Admin Panel: Select Winner and Export Users',
-                'image' => null,
-                'github' =>  'https://github.com/MoisesCorcho/LandingPage-Challenge'
-            ],
-            [
-                'category' => ['Laravel', 'JavaScript'],
-                'title' => 'Interactive Appointment Calendar',
-                'image' => null,
-                'github' =>  'https://github.com/MoisesCorcho/Asimov-Challenge-jsonapi-Frontend'
-            ],
-            [
-                'category' => ['PHP'],
-                'title' => 'REST API for Scheduling Appointments - Plain PHP',
-                'image' => null,
-                'github' =>  'https://github.com/MoisesCorcho/DancingWithDeath-Challenge-LoginSystem'
-            ],
-            [
-                'category' => ['Laravel', 'PHP', 'PHPUnit'],
-                'title' => 'REST API for Scheduling Appointments Following The Json Api Specification - Laravel',
-                'image' => null,
-                'github' =>  'https://github.com/MoisesCorcho/Asimov-Challenge-jsonapi'
-            ],
-            [
-                'category' => ['JavaScript', 'Tailwind CSS'],
-                'title' => 'Typing Test',
-                'image' => null,
-                'github' =>  'https://github.com/MoisesCorcho/typingTest'
-            ],
-            [
-                'category' => ['JavaScript', 'Svelte', 'Phaser 3', 'Tiled'],
-                'title' => "The Developer's Journey — Portfolio Videogame",
-                'image' => null,
-                'github' => 'https://github.com/MoisesCorcho/portfolio-videogame'
-            ],
-            [
-                'category' => ['PHP', 'Laravel'],
-                'title' => 'JsonApi-Package',
-                'image' => null,
-                'github' =>  'https://github.com/MoisesCorcho/JsonApi-Package'
+                'category' => ['C#', 'Unity'],
+                'title' => 'But Why?... (Game Jam Cultura Abierta 2025)',
+                'image' => 'img/projects/but_why.jpg',
+                'github' => 'https://github.com/SamFabra570/CozyWinterJam2026'
             ],
         ];
 

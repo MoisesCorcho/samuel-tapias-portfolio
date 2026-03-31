@@ -127,7 +127,7 @@
                rel="noopener noreferrer">
               {{ __('home.vg_play_btn') }}
             </a>
-            <a href="https://github.com/MoisesCorcho/portfolio-videogame"
+            <a href="https://github.com/SamFabra570/CozyWinterJam2026"
                target="_blank"
                class="vg-cta-btn vg-cta-btn--github"
                rel="noopener noreferrer">

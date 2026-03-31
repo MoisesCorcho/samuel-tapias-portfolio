@@ -43,8 +43,8 @@
                         <div class="about-img-item rounded-2xl overflow-hidden"
                              style="border:1px solid rgba(255,255,255,0.06);">
                             <img
-                                src="{{ url('/img/MoisesPiano.jpeg') }}"
-                                alt="{{ __('home.about_img_piano_alt') }}"
+                                src="{{ url('/img/dog_1.jpeg') }}"
+                                alt="{{ __('home.about_img_1_alt') }}"
                                 class="w-full h-48 object-cover transition-transform duration-500 hover:scale-105"
                             />
                         </div>
@@ -52,7 +52,7 @@
                              style="border:1px solid rgba(255,255,255,0.06);">
                             <img
                                 src="{{ url('/img/dog_2.png') }}"
-                                alt="{{ __('home.about_img_cat_pc_alt') }}"
+                                alt="{{ __('home.about_img_2_alt') }}"
                                 class="w-full h-48 object-cover transition-transform duration-500 hover:scale-105"
                             />
                         </div>
@@ -62,8 +62,8 @@
                         <div class="about-img-item rounded-2xl overflow-hidden"
                              style="border:1px solid rgba(245,158,11,0.2); height:100%;">
                             <img
-                                src="{{ url('/img/dog_1.jpeg') }}"
-                                alt="{{ __('home.about_img_cat_alt') }}"
+                                src="{{ url('/img/samuel_2.jpeg') }}"
+                                alt="{{ __('home.about_img_3_alt') }}"
                                 class="w-full h-full object-cover min-h-[250px] transition-transform duration-500 hover:scale-105"
                             />
                         </div>
@@ -116,7 +116,7 @@
                 </div>
 
 <a
-                    href="https://github.com/MoisesCorcho"
+                    href="https://github.com/Shmuel97"
                     target="_blank"
                     class="btn-outline inline-flex magnetic"
                 >
