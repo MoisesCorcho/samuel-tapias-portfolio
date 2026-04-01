@@ -18,13 +18,13 @@ class ProjectSeeder extends Seeder
             [
                 'category' => ['C#', 'Unity'],
                 'title' => 'Mar y cielo (Game Jam Cultura Abierta 2025)',
-                'image' => 'img/projects/mar_y_cielo.jpg',
+                'image' => '/img/projects/mar_y_cielo.jpg',
                 'github' => 'https://github.com/SamFabra570/MarYCielo'
             ],
             [
                 'category' => ['C#', 'Unity'],
                 'title' => 'But Why?... (Game Jam Cultura Abierta 2025)',
-                'image' => 'img/projects/but_why.jpg',
+                'image' => '/img/projects/but_why.png',
                 'github' => 'https://github.com/SamFabra570/CozyWinterJam2026'
             ],
         ];
@@ -33,7 +33,7 @@ class ProjectSeeder extends Seeder
 
             $project = Project::create([
                 'title' => $data['title'],
-                'image' => null,
+                'image' => $data['image'] ?? null,
                 'github' => $data['github'] ?? null,
             ]);
 

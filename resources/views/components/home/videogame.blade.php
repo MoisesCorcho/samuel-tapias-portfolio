@@ -21,7 +21,7 @@
     <div class="text-center mb-16">
       <span class="vg-label">{{ __('home.vg_label') }}</span>
       <h2 class="vg-title vg-animate-in" data-vg-stagger="0">
-        THE DEVELOPER'S<br><span style="color:#00d4ff;">JOURNEY</span>
+        BUT WHY<span style="color:#00d4ff;">?...</span>
       </h2>
       <p class="vg-subtitle vg-animate-in" data-vg-stagger="1">
         {{ __('home.vg_subtitle') }}
@@ -54,12 +54,8 @@
         <div class="flex flex-wrap gap-3 mb-8">
           @php
             $vgStack = [
-              ['name' => 'Phaser 3',     'icon' => '🎮', 'color' => '#00d4ff'],
-              ['name' => 'Svelte',       'icon' => '🔥', 'color' => '#ff6b35'],
-              ['name' => 'JavaScript',   'icon' => '⚡', 'color' => '#f7df1e'],
-              ['name' => 'Photoshop',    'icon' => '🎨', 'color' => '#31a8ff'],
-              ['name' => 'Tiled',        'icon' => '🗺',  'color' => '#39ff14'],
-              ['name' => 'State Pattern','icon' => '🧠', 'color' => '#ff0080'],
+              ['name' => 'Unity',        'icon' => '🎮', 'color' => '#00d4ff'],
+              ['name' => 'C#',           'icon' => '⚡', 'color' => '#9b59b6'],
             ];
           @endphp
           @foreach($vgStack as $tech)
@@ -87,14 +83,15 @@
             <span class="vg-screen-dot" style="background:#ff5f57;"></span>
             <span class="vg-screen-dot" style="background:#febc2e;"></span>
             <span class="vg-screen-dot" style="background:#28c840;"></span>
-            <span class="vg-screen-title">THE DEVELOPER'S JOURNEY v1.0</span>
+            <span class="vg-screen-title">BUT WHY?... v1.0</span>
           </div>
           <div class="vg-screen-body vg-gallery-body">
             @php
               $screenshots = [
-                ['src' => '/img/videogame/videogame_start.png',       'alt' => __('home.vg_screenshot_start_alt')],
-                ['src' => '/img/videogame/videogame_snow.png',         'alt' => __('home.vg_screenshot_snow_alt')],
-                ['src' => '/img/videogame/videogame_certificates.png', 'alt' => __('home.vg_screenshot_certificates_alt')],
+                ['src' => '/img/videogame/but_why_1.png', 'alt' => __('home.vg_screenshot_1_alt')],
+                ['src' => '/img/videogame/but_why_2.png', 'alt' => __('home.vg_screenshot_2_alt')],
+                ['src' => '/img/videogame/but_why_3.png', 'alt' => __('home.vg_screenshot_3_alt')],
+                ['src' => '/img/videogame/but_why_4.png', 'alt' => __('home.vg_screenshot_4_alt')],
               ];
             @endphp
             @foreach($screenshots as $i => $shot)
@@ -121,7 +118,7 @@
         <div class="text-center vg-animate-in mt-8" data-vg-stagger="6">
           <p class="vg-text mb-6" style="opacity:0.7;">{{ __('home.vg_ready_to_play') }}</p>
           <div class="flex flex-wrap justify-center gap-4">
-            <a href="https://portfolio-videogame.vercel.app/"
+            <a href="https://cuervostudios.itch.io/but-why"
                target="_blank"
                class="vg-cta-btn"
                rel="noopener noreferrer">
@@ -134,7 +131,6 @@
               {{ __('home.vg_github_btn') }}
             </a>
           </div>
-          <p class="vg-tiny-text mt-4">{{ __('home.vg_keyboard_note') }}</p>
         </div>
       </div>
 

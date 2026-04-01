@@ -6,7 +6,7 @@
     {{-- Image area --}}
     <div class="relative overflow-hidden" style="height:220px;">
         <img
-            src="{{ ($image) ? url('/storage/' . $image) : url('/img/github.png') }}"
+            src="{{ $image ? (str_starts_with($image, '/') ? url($image) : asset('storage/' . $image)) : url('/img/github.png') }}"
             alt="{{ $title }}"
             class="w-full h-full object-cover"
         />

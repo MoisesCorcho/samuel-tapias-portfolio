@@ -11,7 +11,7 @@ return [
         'location'       => 'Madrid, España',
         'linkedin'       => 'https://www.linkedin.com/in/samuel-arcelio-tapias-salcedo-927167145/',
         'instagram'      => 'https://www.instagram.com/samueltapiass/',
-        'github'         => 'https://github.com/#',
+        'github'         => 'https://github.com/Shmuel97',
     ],
 
 ];
