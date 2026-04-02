@@ -1,0 +1,123 @@
+{
+  "profile": {
+    "name": "Samuel Arcelio Tapias Salcedo",
+    "title": "Systems Engineer",
+    "location": "Madrid, Spain",
+    "summary": "Systems Engineer from Universidad del Norte, with advanced English skills and experience in DevOps tools for digital transformation projects. Knowledge of database design, development, and deployment. I have a valid visa to work in Spain.",
+    "contact": {
+      "email": "stscfc50@gmail.com",
+      "phone": "+34 607078970",
+      "linkedin": "linkedin.com/in/samuel-arcelio-tapias-salcedo-927167145",
+      "portfolio": ""
+    }
+  },
+  "experience": [
+    {
+      "id": "exp_gtc",
+      "role": "Solutions Engineer III",
+      "company": "GTC Corporation",
+      "date": "June 2024 - August 2025",
+      "description": "Complete management of documentation and deployment of new functionalities for web applications using the SCRUM methodology. Granting suppliers access to microservices.",
+      "stack": []
+    },
+    {
+      "id": "exp_venture",
+      "role": "Web Developer",
+      "company": "Venture Global Solutions",
+      "date": "April 2024 - May 2024",
+      "description": "Full-stack web application development with WordPress.",
+      "stack": [
+        "WordPress"
+      ]
+    },
+    {
+      "id": "exp_ey",
+      "role": "Technology Consulting",
+      "company": "Ernst & Young S.A.S.",
+      "date": "July 2022 - February 2024",
+      "description": "Complete management of documentation, resources and pipeline development for the automatic deployment of infrastructure using the SCRUM methodology.",
+      "stack": [
+        "Terraform",
+        "Azure DevOps",
+        "Azure Portal"
+      ]
+    },
+    {
+      "id": "exp_ramajudicial",
+      "role": "Help Desk Coordinator",
+      "company": "Rama Judicial Colombiana",
+      "date": "March 2022 - June 2022",
+      "description": "Coordination and management of IT support requests for the entity using HelpDesk.",
+      "stack": [
+        "HelpDesk"
+      ]
+    },
+    {
+      "id": "exp_giitic",
+      "role": "Junior Java Developer",
+      "company": "Giitic S.A.",
+      "date": "September 2021 - January 2022",
+      "description": "Full-stack development of web and mobile applications with Java.",
+      "stack": [
+        "Java"
+      ]
+    }
+  ],
+  "skills": {
+    "programming": {
+      "advanced": [],
+      "intermediate": [
+        "C#",
+        "Java",
+        "Python",
+        "SQL"
+      ],
+      "basic": []
+    },
+    "frameworksAndTools": {
+      "advanced": [],
+      "intermediate": [
+        "Unreal",
+        "Unity",
+        "Azure DevOps",
+        "Azure Portal",
+        "Terraform"
+      ],
+      "basic": []
+    },
+    "databases": {
+      "intermediate": [
+        "SQL"
+      ]
+    },
+    "languages": {
+      "native": [
+        "Spanish"
+      ],
+      "advanced": [
+        "English (C2)"
+      ]
+    }
+  },
+  "education": [
+    {
+      "id": "edu_uem",
+      "degree": "Master's in Video Game Design",
+      "school": "Universidad Europea de Madrid",
+      "date": "Currently"
+    },
+    {
+      "id": "edu_uninorte",
+      "degree": "Systems Engineer",
+      "school": "Universidad del Norte",
+      "date": "2021"
+    },
+    {
+      "id": "edu_mercedes",
+      "degree": "High School Diploma",
+      "school": "Colegio Nuestra Señora de Las Mercedes",
+      "date": "2013"
+    }
+  ],
+  "certs": []
+}
