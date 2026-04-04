@@ -355,16 +355,15 @@ function initCardHovers() {
 }
 
 // ─── Portfolio filter pill (sliding background indicator) ─────────────────────
-function initPortfolioFilterPill() {
+function updatePortfolioFilterPill() {
     const pill    = document.getElementById('filter-pill');
     const wrapper = document.getElementById('filter-tabs-wrapper');
     if (!pill || !wrapper) return;
 
-    // Wait one tick so flex layout is fully painted
     requestAnimationFrame(() => {
-        const allTab     = wrapper.querySelector('[data-tab="all"]');
-        if (!allTab) return;
-        const tabRect     = allTab.getBoundingClientRect();
+        const activeTab = wrapper.querySelector('.filter-tab.active') || wrapper.querySelector('[data-tab="all"]');
+        if (!activeTab) return;
+        const tabRect     = activeTab.getBoundingClientRect();
         const wrapperRect = wrapper.getBoundingClientRect();
         gsap.set(pill, {
             x:      tabRect.left - wrapperRect.left,
@@ -373,6 +372,13 @@ function initPortfolioFilterPill() {
             height: tabRect.height,
         });
     });
+}
+
+function initPortfolioFilterPill() {
+    // Initial position
+    updatePortfolioFilterPill();
+    // Keep pill aligned on window resize
+    window.addEventListener('resize', updatePortfolioFilterPill);
 }
 
 // ─── Portfolio filter with GSAP card animations ───────────────────────────────
@@ -403,7 +409,9 @@ window.portfolioFilter = function(tab, event) {
         const wrapperRect = wrapper.getBoundingClientRect();
         gsap.to(pill, {
             x:      tabRect.left - wrapperRect.left,
+            y:      tabRect.top  - wrapperRect.top,
             width:  tabRect.width,
+            height: tabRect.height,
             duration: 0.4,
             ease: 'power3.inOut',
         });
@@ -1650,9 +1658,10 @@ function initQuoteWave() {
     const words = el.textContent.trim().split(/\s+/).filter(Boolean);
     const cycle = +(words.length * JUMP + PAUSE).toFixed(2);
 
-    el.innerHTML = words.map((word, i) =>
-        `<span class="bounce-word" style="animation-delay:${(i * JUMP).toFixed(2)}s; animation-duration:${cycle}s">${word}</span>`
-    ).join(' ');
+    el.innerHTML = words.map((word, i) => {
+        const delay = ((i * JUMP) - cycle).toFixed(2);
+        return `<span class="bounce-word" style="animation-delay:${delay}s; animation-duration:${cycle}s">${word}</span>`;
+    }).join(' ');
 }
 
 // ─── Init ─────────────────────────────────────────────────────────────────────

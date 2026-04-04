@@ -820,6 +820,10 @@ body {
     animation: word-bounce linear infinite;
     text-shadow: 0 1px 0 rgba(245,158,11,0.18),
                  0 2px 5px rgba(0,0,0,0.35);
+    /* Forzar hardware acceleration y evitar que el navegador "pierda" el renderizado */
+    will-change: transform;
+    transform: translateZ(0);
+    backface-visibility: hidden;
 }
 
 @keyframes word-bounce {
