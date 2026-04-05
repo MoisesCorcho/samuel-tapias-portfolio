@@ -1386,11 +1386,19 @@ body {
     box-shadow:
         0 4px 20px rgba(0, 0, 0, 0.4),
         inset 0 1px 0 rgba(255, 255, 255, 0.04);
-    transition: .5s cubic-bezier(0.05, 0.61, 0.41, 0.95);
+    transition: .6s cubic-bezier(0.05, 0.61, 0.41, 0.95);
+    will-change: flex-grow, max-width, height;
+}
+
+/* On desktop, we constrain the collapsed width to help the browser animate smoothly */
+@media (min-width: 768px) {
+    .exp-option:not(.active) {
+        max-width: 120px;
+    }
 }
 
 .exp-option.active {
-    flex-grow: 10000;
+    flex-grow: 10;
     max-width: 700px;
     margin: 0px;
     border-radius: 40px;
@@ -1528,16 +1536,18 @@ body {
     margin-left: 12px;
     overflow: hidden;
     white-space: nowrap;
+    transition: width .6s cubic-bezier(0.05, 0.61, 0.41, 0.95), margin-left .6s cubic-bezier(0.05, 0.61, 0.41, 0.95), opacity .35s ease;
 }
 
 .exp-info > div {
     position: relative;
-    transition: .5s cubic-bezier(0.05, 0.61, 0.41, 0.95), opacity .5s ease-out;
+    transition: .6s cubic-bezier(0.05, 0.61, 0.41, 0.95), opacity .5s ease-out;
 }
 
 .exp-option:not(.active) .exp-info {
     width: 0;
     margin-left: 0;
+    opacity: 0;
     overflow: hidden;
 }
 
