@@ -10,6 +10,8 @@ return [
     'nav_about'   => 'About me',
     'nav_projects' => 'Projects',
     'nav_contact' => 'Contact',
+    'nav_vg' => 'Videogame',
+    'nav_experience' => 'Experience',
     'nav_cta'     => 'Contact me',
     'nav_lang_switch_title_to_en' => 'Switch to English',
     'nav_lang_switch_title_to_es' => 'Cambiar a Español',
