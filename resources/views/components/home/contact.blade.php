@@ -4,9 +4,6 @@
     class="relative pt-24 lg:pt-32 pb-24 lg:pb-36 overflow-hidden"
     style="background: linear-gradient(180deg, #020617 0%, #0f172a 50%, #020617 100%);"
 >
-    {{-- Decorative oversized bg text (parallax via JS) --}}
-    <div class="bg-text" style="top: 50%; left: 50%; transform: translate(-50%, -50%);" data-parallax-bg>{{ __('home.contact_parallax_bg') }}</div>
-
     {{-- Background glow --}}
     <div style="position:absolute; width:600px; height:600px; background:rgba(245,158,11,0.06); bottom:-100px; left:50%; transform:translateX(-50%); border-radius:50%; filter:blur(100px); pointer-events:none;"></div>
     <div class="dot-grid absolute inset-0 opacity-20 pointer-events-none"></div>
@@ -207,7 +204,7 @@
                                 <span class="flex items-center gap-2">
                                     {{ __('home.contact_submit_btn') }}
                                     <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"/>
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5" />
                                     </svg>
                                 </span>
                             </template>
